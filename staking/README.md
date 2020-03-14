@@ -5,7 +5,7 @@ Sets of scripts to interact with the harmony staking operation
 ## Prerequesites
 
 ```bash
-apt-get install -y bc, jq
+apt-get install -y bc jq
 ```
 
 ## Installation
@@ -30,3 +30,7 @@ bash harmony-staking-script/is-synced.sh 0
 ### validator-information.sh
 
 show validator information : bash harmony-staking-script/validator-information.sh <validator_one_account>
+
+```bash
+bash harmony-staking-script/validator-information.sh one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
+```
