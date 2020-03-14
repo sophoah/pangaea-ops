@@ -3,9 +3,11 @@
 hmybin="./hmy"
 currentdir=$(dirname "$0")
 count=1
-max=80 
-mkdir -p ${currentdir}/.hmy/blskeys
+max=80
 shardnb=1
+
+mkdir -p ${currentdir}/.hmy/blskeys
+
 while [ $count -le $max ]
 do
     echo $count
@@ -16,7 +18,7 @@ do
         cp ${currentdir}/${pubkey}.key ${currentdir}/.hmy/blskeys
         count=$(( $count + 1 ))
    else
-        rm $pubkey.key
+        rm ${currentdir}/$pubkey.key
     fi
 done
 echo done
