@@ -10,5 +10,7 @@ else
     api=$2
 fi
 
+#TODO add --passphrase capability
+
 echo "./hmy -n $api staking edit-validator --active true --validator-addr $validator"
 ./hmy -n $api staking edit-validator --active true --validator-addr $validator

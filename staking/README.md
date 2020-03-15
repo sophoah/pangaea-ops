@@ -1,6 +1,6 @@
 # Harmony staking scripts
 
-Sets of scripts to interact with the harmony staking operation
+Sets of small scripts to interact with the harmony staking chain
 
 ## Prerequesites
 
@@ -34,3 +34,7 @@ show validator information : bash harmony-staking-script/validator-information.s
 ```bash
 bash harmony-staking-script/validator-information.sh one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
 ```
+
+## TODO
+
+Add feature to enable the usage of a passphrase

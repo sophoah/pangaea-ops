@@ -10,4 +10,5 @@ else
     api=$2
 fi
 
+echo "./hmy -n $api utility committees"
 ./hmy -n $api utility committees
