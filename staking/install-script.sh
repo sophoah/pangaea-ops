@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-echo "Installing Harmony staking script in folder harmony-staking-script"
-rm -rf harmony-staking-script 
-mkdir -p harmony-staking-script
+echo "Installing Harmony staking script in hss folder (hss : harmony-staking-script)"
+rm -rf hss
+mkdir -p hss
 
-cd harmony-staking-script
+cd hss
 curl -LOs https://raw.githubusercontent.com/sophoah/pangaea-ops/master/staking/validator-information.sh
 curl -LOs https://raw.githubusercontent.com/sophoah/pangaea-ops/master/staking/edit-validator-active.sh
 curl -LOs https://raw.githubusercontent.com/sophoah/pangaea-ops/master/staking/collect-reward.sh

@@ -27,6 +27,11 @@ bash harmony-staking-script/is-synced.sh <shardnb>
 bash harmony-staking-script/is-synced.sh 0
 ```
 
+inline bash
+```
+bash <(curl -sSL https://raw.githubusercontent.com/sophoah/pangaea-ops/master/staking/is-synced.sh) 1
+```
+
 ### validator-information.sh
 
 show validator information : bash harmony-staking-script/validator-information.sh <validator_one_account>
