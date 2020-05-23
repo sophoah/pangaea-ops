@@ -18,7 +18,7 @@ while IFS="\n" read -r line; do
     #echo $bls
     if [  -n "$bls" ]
     then
-        echo "./hmy --node="https://api.s0.os.hmny.io" staking edit-validator --validator-addr one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd --remove-bls-key $bls"
-        echo "" | ./hmy --node="https://api.s0.os.hmny.io" staking edit-validator --validator-addr one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd --remove-bls-key $bls
+        echo "./hmy --node="https://api.s0.t.hmny.io" staking edit-validator --validator-addr one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd --remove-bls-key $bls"
+        echo "" | ./hmy --node="https://api.s0.t.hmny.io" staking edit-validator --validator-addr one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd --remove-bls-key $bls
     fi
 done <<< "$keystoremove"

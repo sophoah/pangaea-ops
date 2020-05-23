@@ -1,11 +1,11 @@
 #! /bin/bash
 
-#defaulting to OSTN
+#defaulting to mainnet
 
 validator=$1
 if [ -z $2 ]
 then
-    api="https://api.s0.os.hmny.io"
+    api="https://api.s0.t.hmny.io"
 else
     api=$2
 fi
